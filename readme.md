@@ -111,7 +111,7 @@ There are some downsides to this approach. Although Azure Front Door scaling is 
 - Effort. This approach requires management of both DNS and Azure Front Door, for every tenant onboarding. Wildcard DNS entries do not provide a solution here: these entries can only map to a single Azure Front Door endpoint and can only be associated with a single Azure Front Door resource.
 
 ### https<span/>://app.contoso.com/tenant
-![Routing via a single domain and path](/images/routing-single-domain.png)
+![Routing via a single domain and path](/images/routing-single-domain.PNG)
 
 This strategy centralizes on Azure Front Door. In DNS, only a single entry is registered, mapping to the Azure Front Door resource. 
 
