@@ -18,7 +18,7 @@ Having multiple deployments allows your architecture to:
 - Isolate particular tenants that have more stringent security requirements / customizations
 - Provision tenants in a particular region / geo, allowing your application to support data sovereignty and other legislation
 
-Having multiple deployments also introduces some challenges. As part of your architecture and product strategy, you now have to think about directing end-users to the deployment unit or stamp that supports their tenant as the alternative would imply cross-stamp pollination.  
+Having multiple deployments also introduces some challenges. As part of your architecture and product strategy, you now have to think about directing end-users to the deployment stamp or scale unit that supports their tenant as the alternative would imply cross-stamp pollination.  
 
 ## The application
 Assume that the application is build on Azure App Services and deployed in 6 geographies: EastUS, WestUS,  Europe, France, Norway and Australia. The application's architecture caters for disaster recovery scenarios by having a secondary (active) deployment in the paired region. 
